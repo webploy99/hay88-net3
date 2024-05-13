@@ -139,7 +139,7 @@
     <!-- main -->
     <div class="main p-4 shadow">
         <!-- slider -->
-        <section class="splide max-w-7xl m-auto py-10 px-5" aria-labelledby="carousel-heading">            
+        <section class="splide max-w-7xl m-auto py-10" aria-labelledby="carousel-heading">            
             <div class="splide__track text-white">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -159,8 +159,8 @@
         </section>
 
         <!-- button click -->
-        <div>
-            <div class="mt-10 btn">
+        <div class="bg-[#292e3b] py-10 mt-5">
+            <div class=" btn">
                 <div class="grid sm:grid-cols-3 gap-8 md:gap-0 place-items-center text-lg text-[#6d839f] font-semibold">
                     <div class="">
                         <button onclick="url()" class="flex justify-center items-center duration-300"><img src="./images/dangky.png" class="w-10/12 sm:w-full lg:w-11/12 hover:scale-105 duration-500"></button>
@@ -577,6 +577,9 @@
         </div>
     </div>
 
+    <!-- button click to top -->
+    <button onclick="topScroll()" title="Go to top"><ion-icon name="chevron-up-circle-outline" class="fixed bottom-5 right-5 z-50 text-5xl text-yellow-500"></ion-icon></button>
+
     <!-- footer -->
     <div class="footer">
         <div class="mt-10 bg-[#3e87c7] py-10 p-4">
@@ -585,7 +588,7 @@
                     <span class="font-semibold block">NHÀ CÁI HAY88</span>
                     <span class="w-8 h-1 bg-gray-400 block mt-2"></span>
                     <div onclick="url()" class="mt-5 cursor-pointer">
-                        <img src="./images/logo-footer.png" class="w-3/6">
+                        <img src="./images/logo.png" class="w-3/6">
                     </div>
                     <p class="mt-5"><span class="font-semibold">Hay88</span> là nhà cái về cá cược online đẳng cấp nhất hiện nay. Với các tựa game đa dạng, hấp dẫn. Tham gia trải nghiệm ngay để nhận nhiều ưu đãi cực lớn.</p>
                 </div>
@@ -609,7 +612,7 @@
                     <div class="flex flex-col gap-3 mt-5">
                         <span>Website: <button onclick="url()" class="font-semibold hover:text-white duration-300"> https://hay88net.com/</button></span>
                         
-                        <span onclick="url()" class="hover:text-white duration-300 cursor-pointer">Email: hay88net.com@gmail.com</span>
+                        <span onclick="url()" class="hover:text-white duration-300 cursor-pointer">Email: hay88net@gmail.com</span>
                         <span>Điện Thoại: (+63) 949 870 7015</span>
                         <span>Địa Chỉ: 30 Nguyễn Trọng Tuyển, Phường 15,</span>
                         <span>Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam</span>
@@ -618,13 +621,11 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="p-3 bg-[#dd9933] text-gray-300">
             <span class="block text-center font-semibold"> <span class="font-normal">Copyright 2024 ©</span> Bản quyền HAY88NET.COM</span>
         </div>
     </div>
-
-    <button onclick="topScroll()" title="Go to top"><ion-icon name="chevron-up-circle-outline" class="fixed bottom-5 right-5 z-50 text-5xl text-yellow-500"></ion-icon></button>
 
     <!-- splide -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
